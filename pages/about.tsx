@@ -1,4 +1,3 @@
-import Electric from '@/components/Electric';
 import Wrapper from '@/components/Wrapper';
 import Head from 'next/head';
 import React, { useEffect, useState } from 'react';
@@ -14,7 +13,6 @@ const Counter: React.FC<CounterProps> = ({ end, duration }) => {
   const [count, setCount] = useState(0);
 
   useEffect(() => {
-    const start = 0;
     const increment = end / (duration * 60); // Increment per frame (~60 fps)
 
     const updateCounter = () => {

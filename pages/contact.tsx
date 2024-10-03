@@ -133,7 +133,7 @@ const Contact: React.FC = () => {
               </button>
 
               {state.succeeded && (
-                <p className="text-green-500 mt-4">Thanks for contacting us! We'll get back to you soon.</p>
+                <p className="text-green-500 mt-4">Thanks for contacting us! We Will get back to you soon.</p>
               )}
             </motion.form>
           </div>

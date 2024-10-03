@@ -1,4 +1,3 @@
-import Electric from '@/components/Electric';
 import Wrapper from '@/components/Wrapper';
 import Head from 'next/head';
 import React from 'react';
