@@ -39,11 +39,11 @@ const Navbar = () => {
     }
   }
   return (
-    <header className='fixed w-full top-0 left-0 z-20'>
+    <header className='fixed w-full top-0 left-0 z-20 '>
       <nav className={`max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 ${showMenu ? "hidden" : ""}`}>
         <div className='flex justify-between items-center h-16'>
-          <Link href="/" className='text-3xl text-Black'>
-            V.R.S Electrical Works<span className='text-Red text-[48px]'>.</span>
+          <Link href="/" className='text-2xl text-Black font-bold'>
+            V.R.S Electrical Works<span className='text-Red text-[36px]'>.</span>
           </Link>
           <div className='hidden md:flex items-center space-x-6 justify-center'>{
             navLinks.map(navLink => (
