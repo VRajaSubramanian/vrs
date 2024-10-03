@@ -4,7 +4,7 @@ import { FaHome, FaBuilding, FaUtensils, FaTheaterMasks } from 'react-icons/fa';
 
 const servicesData = [
   {
-    heading: 'Residential Electrical Services',
+    heading: 'Residential Services',
     icon: <FaHome className="w-8 h-8 text-red-500" />, // Residential icon
     subheadings: [
       'New Home Wiring',
@@ -15,7 +15,7 @@ const servicesData = [
     ],
   },
   {
-    heading: 'Commercial Electrical Services',
+    heading: 'Commercial Services',
     icon: <FaBuilding className="w-8 h-8 text-red-500" />, // Commercial icon
     subheadings: [
       'Office Wiring',
@@ -25,7 +25,7 @@ const servicesData = [
     ],
   },
   {
-    heading: 'Restaurants and Lodges',
+    heading: 'Apartments and Hotels',
     icon: <FaUtensils className="w-8 h-8 text-red-500" />, // Restaurant icon
     subheadings: [
       'Dining Area Lighting',
@@ -50,9 +50,8 @@ const Services = () => {
   return (
     <Wrapper className="flex flex-col justify-center">
       <div className="bg-[#fbe2e3] absolute top-[-1rem] -z-10 right-[11rem] h-[31.25rem] w-[45.25rem] rounded-full blur-[10rem] sm:w-[75.75rem]"></div>
-
-      <div className="flex flex-col items-center justify-center min-h-screen p-4">
-        <h1 className="text-3xl font-bold text-center mb-8">Our Services</h1>
+      <div className="flex flex-col items-center justify-center  p-4">
+        <h1 className="text-2xl lg:text-3xl font-bold text-center pb-10 pt-20">Our Services</h1>
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6 w-full max-w-6xl">
           {servicesData.map((service, index) => (
             <div
